@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error-campo {
+    color: rgba(255, 0, 0, 0.52);
+}
+
+#fondo{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+
+form{
+    margin-left: 3%;
+    width: 95%;
+    padding: 2em;
+    background-color: transparent;
+    border: 1px dotted #000000;
+    box-shadow: 0px 0px #000000;
+    border-radius: 0.5em;
+    
+}
+
+input[type=text]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+select{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contrasenia{
+    background-color: transparent;
+    background-image: url(../imgs/password.png    );
+    background-repeat: no-repeat;
+    background-size: 1.4em;
+    color: black;
+    padding: .5em .5em .5em 2em;
+    background-position: .2em;
+}
+
+
+.text-center {
+    text-align: center;
+    background-color: transparent;
+    border-radius: 0.5em;
+}
+a{
+    color: black;
+}
+
